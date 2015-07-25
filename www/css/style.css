@@ -1,0 +1,159 @@
+
+.numberCircle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 30px;
+    padding: 8px;
+    font-size: 18px;
+    Background: #2ec866;
+    position: relative;
+    top: 8%;
+    margin: 10px;
+    display: inline-block;
+}
+.numberCircle .height-fix {
+    margin-top: 100%;
+}
+.numberCircle .party-size {
+    position: absolute;
+    left: 0;
+    top: 65%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: -16px; /* Note, this must be half the font size */
+    color: white;
+}
+
+.bookingsCircle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 40px;
+    padding: 8px;
+    font-size: 18px;
+    Background: #2ec866;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    /* margin: 10px; */
+    display: inline-block;
+}
+.bookingsCircle .booking-height-fix {
+    margin-top: 100%;
+}
+.bookingsCircle .booking-size {
+    position: absolute;
+    left: 0;
+    top: 65%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: -16px; /* Note, this must be half the font size */
+    color: white;
+}
+
+.holder {
+    display: inline-block;
+    vertical-align: top;
+    top: 2px;
+    color: #707070;
+}
+
+.notes {
+    position: absolute;
+    left: 53px;
+    color: #B0B0B0;
+    top: 36px;
+    font-size: 11px;
+}
+
+.holder .nameHolder {
+    font-size: 15px;
+    position: absolute;
+    top: 10%;
+    height: 45px;
+}
+
+.holder .timeHolder {
+    font-size: 15px;
+    position: absolute;
+    color: #2ec866;
+    right: 7px;
+    top: 10%;
+    height: 55px;
+}
+
+.cardHolder{
+    height: 120px;
+    border: 1px lightgray solid;
+}
+
+.statusHolder{
+    position: absolute;
+    bottom: 0px;
+    height: 35%;
+    width: 100%;
+    display: table;
+}
+
+.tableStatus {
+    position: absolute;
+    left: 18px;
+    bottom: 5px;
+}
+
+.foodStatus{
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+.customLabel {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0px;
+    background-color: #2ec866;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    bottom: 0px;
+    text-align: center;
+}
+
+.customSelector {
+    position: absolute;
+    right: 1px;
+    height: 100%;
+    width: 50%;
+    text-indent: 5px;
+}
+
+.select {
+    right: 50%;
+    background-color: #2ec866 !important;
+    color: white !important;
+}
+
+.tagPlace {
+    position: absolute;
+    left: 50px;
+}
+.tagHolder {
+    float: left;
+    padding: 4px;
+    height: 4px;
+}
+
+.locationHolder{
+    text-align: center;
+}
+
+.tableName {
+    display: inline-block;
+    position: relative;
+}

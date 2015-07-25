@@ -1,0 +1,43 @@
+
+<ion-view view-title="Table {{tableId}}">
+    <ion-content class="padding">
+        <div class="list card cardHolder" ng-repeat="booking in bookings">
+            
+            <div class="numberCircle">
+                <div class="height-fix"></div>
+                <div class="party-size">{{booking.size}}</div>
+            </div>
+            
+            <div class="holder">
+                <div class="nameHolder">{{booking.name}}</div>
+                <div class="timeHolder">{{booking.time}}</div>
+            </div>
+            
+            <div class="notes">
+                {{booking.notes}}
+            </div>
+            
+            <div class="tagPlace">
+                <div class="tagHolder" ng-repeat="tag in booking.tags"><a class="{{tag}}"></a></div>
+            </div>
+
+            
+            <div class="statusHolder">
+                <div class="tableStatus">
+                    Active
+                </div>
+                <div class="foodStatus">
+                <div class="item item-input item-select customSelector">
+                    <select>
+                        <option>Starters</option>
+                        <option>Main Course</option>
+                        <option>Deserts</option>
+                        <option>Cheque</option>
+                    </select>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+    </ion-content>
+</ion-view>
